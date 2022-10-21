@@ -11,102 +11,103 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="/">WebStudio</a>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="#">Портфоліо</a></li>
-                <li><a href="#">Контакти</a></li>
+<body class="body">
+
+    <header class="header">
+        <a href="/" class="logo-header link"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+        <nav class="header-nav">            
+            <ul class="header-list list">
+                <li class="header-list-item"><a class="header-list-link link" href="./index.html">Студія</a></li>
+                <li class="header-list-item"><a class="header-list-link link" href="#">Портфоліо</a></li>
+                <li class="header-list-item"><a class="header-list-link link" href="#">Контакти</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="list">
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="header-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="header-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     
     </header>
 
     <main>
-        <h1 hidden>Portfolio</h1>
-        <section class="button">
-            <ul>
-                <li><button type="button">Усі</button></li>
-                <li><button type="button">Веб-сайти</button></li>
-                <li><button type="button">Додатки</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
-            </ul>
-        </section>
-        <section class="our-works">
-            <h2 hidden>Our-works</h2>
-            <ul>
-                <li>
-                    <img src="./img/work-tehno.jpg" alt="title page of site on desctop" width="370" height="294">
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./img/work-poster.jpg" alt="poster of two bascetbolists" width="370" height="294">
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./img/work-restorant.jpg" alt="poster Seafood restorant" width="370" height="294">
-                    <h3>Ресторан Seafood</h3>
-                    <p>Додаток</p>
-                </li>
-                <li>
-                    <img src="./img/work-prime.jpg" alt="photo of headfones" width="370" height="294">
-                    <h3>Проєкт Prime</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./img/work-boxes.jpg" alt="two boxes" width="370" height="294">
-                    <h3>Проєкт Boxes</h3>
-                    <p>Додаток</p>
-                </li>
-                <li>
-                    <img src="./img/work-inspiration.jpg" alt="desctop with black site on display" width="370" height="294">
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./img/work-publishing.jpg" alt="оpen book" width="370" height="294">
-                    <h3>Видання Limited Edition</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./img/work-lab.jpg" alt="label" width="370" height="294">
-                    <h3>Проєкт LAB</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./img/work-grow-bisness.jpg" alt="display with logo business" width="370" height="294">
-                    <h3>Growing Business</h3>
-                    <p>Додаток</p>
-                </li>
-            </ul>
-        </section>
+        <section class="portfolio">
+            <h1 hidden>Portfolio</h1>
+
+                <ul class="list-button list" >
+                    <li class="list-button-item"><button type="button">Усі</button></li>
+                    <li class="list-button-item"><button type="button">Веб-сайти</button></li>
+                    <li class="list-button-item"><button type="button">Додатки</button></li>
+                    <li class="list-button-item"><button type="button">Дизайн</button></li>
+                    <li class="list-button-item"><button type="button">Маркетинг</button></li>
+                </ul>            
+            
+                <h2 hidden>Our-works</h2>
+                <ul class="works-list list">
+                    <li>
+                        <img src="./img/work-tehno.jpg" alt="title page of site on desctop" width="370" height="294">
+                        <h3>Технокряк</h3>
+                        <p>Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./img/work-poster.jpg" alt="poster of two bascetbolists" width="370" height="294">
+                        <h3>Постер New Orlean vs Golden Star</h3>
+                        <p>Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./img/work-restorant.jpg" alt="poster Seafood restorant" width="370" height="294">
+                        <h3>Ресторан Seafood</h3>
+                        <p>Додаток</p>
+                    </li>
+                    <li>
+                        <img src="./img/work-prime.jpg" alt="photo of headfones" width="370" height="294">
+                        <h3>Проєкт Prime</h3>
+                        <p>Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./img/work-boxes.jpg" alt="two boxes" width="370" height="294">
+                        <h3>Проєкт Boxes</h3>
+                        <p>Додаток</p>
+                    </li>
+                    <li>
+                        <img src="./img/work-inspiration.jpg" alt="desctop with black site on display" width="370" height="294">
+                        <h3>Inspiration has no Borders</h3>
+                        <p>Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./img/work-publishing.jpg" alt="оpen book" width="370" height="294">
+                        <h3>Видання Limited Edition</h3>
+                        <p>Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./img/work-lab.jpg" alt="label" width="370" height="294">
+                        <h3>Проєкт LAB</h3>
+                        <p>Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./img/work-grow-bisness.jpg" alt="display with logo business" width="370" height="294">
+                        <h3>Growing Business</h3>
+                        <p>Додаток</p>
+                    </li>
+                </ul>            
+        </section>        
     </main>
 
     <footer>
-        <a href="/">WebStudio</a>
+        <a href="/" class="logo-footer link">WebStudio</a>
         <address>
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="https://goo.gl/maps/n5b4QtneqCqX9fJA9">м. Київ, пр-т Лесі Українки, 26</a>
+                    <a class="link" href="https://goo.gl/maps/n5b4QtneqCqX9fJA9">м. Київ, пр-т Лесі Українки, 26</a>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>

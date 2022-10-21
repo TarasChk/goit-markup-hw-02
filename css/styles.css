@@ -1,0 +1,198 @@
+:root {
+    --main-color: #212121;
+    --second-color: #757575;
+}
+
+/* General style */
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+.link:hover {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;
+        color: #2196F3;
+}
+
+.link:focus {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.02em;        
+        color: #2196F3;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Header style */
+
+.logo-web {
+    font-weight: 700;
+        font-size: 26px;
+        line-height: calc(31 / 26);   
+        letter-spacing: 0.03em;    
+        color: #2196F3;
+}
+
+.logo-studio {
+    font-weight: 700;
+        font-size: 26px;
+        line-height: calc(31 / 26);
+        letter-spacing: 0.03em;    
+        color: #000000;
+}
+
+.list {
+    list-style: none;
+}
+
+.header-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.header-mail-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+}
+
+.header-tel-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;    
+    color: var(--second-color);
+}
+
+/* Hero Index style */
+
+.hero-title {
+    font-weight: 900;
+        font-size: 44px;
+        line-height: calc(60 / 44);
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase
+        color: #000000;
+}
+
+.hero-button {
+    font-weight: 700;
+        font-size: 16px;
+        line-height: calc(30 / 16);       
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;    
+        color: #FFFFFF;
+}
+
+/* Feachures Index style */
+
+.feachures-tytle {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;    
+        color: var(--main-color);
+}
+
+.feachures-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);           
+        letter-spacing: 0.03em;    
+        color: var(--second-color);
+}
+
+/* Employment Index style */
+
+.employment-tytle {
+       font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42/36);
+        text-align: center;
+        letter-spacing: 0.03em;    
+        color: var(--main-color);
+}
+
+/* Team Index style */
+
+.team-style {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42/36);
+        text-align: center;
+        letter-spacing: 0.03em;    
+        color: var(--main-color);
+}
+
+.team-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(19/16);    
+        text-align: center;
+        letter-spacing: 0.03em;    
+        color: var(--main-color);
+}
+
+.team-profesion {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(19/16);    
+        text-align: center;
+        letter-spacing: 0.03em;    
+        color: var(--second-color);
+}
+
+/* Main (Portfolio) style */
+
+.list-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.list-button-item {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);    
+}
+
+/* Footer style */
+
+.logo-studio-footer {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;    
+    color: #FFFFFF;
+}
