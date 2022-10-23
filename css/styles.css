@@ -2,11 +2,7 @@
 
 .body {
     font-family: 'Roboto', sans-serif;
-    --main-elements-color: #212121;
-    --second-elements-color: #757575;
-    --accent-elements-color: #2196F3;
-    --main-background-color: #F5F5F5;
-    --second-background-color: #2F303A;
+    
 }
 
 .logo-header {
