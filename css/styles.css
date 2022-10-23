@@ -9,7 +9,7 @@
     --second-background-color: #2F303A;
 }
 
-.logo {
+.logo-header {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -18,19 +18,11 @@
 
 }
 
-.link:hover {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: calc(16 / 14);
-        letter-spacing: 0.02em;
+.link:hover {        
         color: var(--accent-elements-color);
 }
 
-.link:focus {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: calc(16 / 14);
-        letter-spacing: 0.02em;        
+.link:focus {            
         color: var(--accent-elements-color);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -143,16 +135,16 @@ button {
 
 .hero-button:hover,
 .hero-button:focus {
-    font-family: inherit;
     color: var(--accent-elements-color);
-    background-color: #FFFFFF;
-    border: 1px solid var(--accent-elements-color);
+    background-color: #FFFFFF;   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 /* Feachures Index style */
 
 .feachures {
-    background-color:var(--main-background-color);
+    background-color: #FFFFFF;
 }
 
 .feachures-tytle {
@@ -175,7 +167,7 @@ button {
 /* Employment Index style */
 
 .employment {
-    background-color: var(--main-background-color);
+    background-color: #FFFFFF;
 }
 
 .employment-tytle {
@@ -227,7 +219,7 @@ button {
 /* Main (Portfolio) style */
 
 .portfolio {
-    background-color: var(--main-background-color);
+    background-color: #FFFFFF;
 }
 
 .list-button {
@@ -249,22 +241,34 @@ button {
     letter-spacing: 0.03em;
     color: var(--main-elements-color);
     background-color: #F5F4FA;
+    border: transparent;
     border-radius: 0;
 }
 
 .list-button-item:hover,
 .list-button-item:focus {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(26 / 16);
-    text-align: center;
-    letter-spacing: 0.03em;
+   
     color: #FFFFFF;
     background: var(--accent-elements-color);    
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    border: none;
+    border: transparent;
+}
+
+.works-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: calc(36/18);    
+        letter-spacing: 0.06em;    
+        color: var(--main-elements-color);
+}
+
+.works-object {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(30/16);    
+        letter-spacing: 0.03em;    
+        color: var(--second-elements-color);
 }
 
 /* Footer style */
@@ -281,20 +285,26 @@ button {
     color: #FFFFFF;
 }
 
+
 .adress-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;    
+    line-height: calc(24/14);;    
     letter-spacing: 0.03em;    
     color: #FFFFFF;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--accent-elements-color);
 }
 
 .adr-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;    
+    line-height: calc(24/14);
     letter-spacing: 0.03em;    
     color: rgba(255, 255, 255, 0.6);
 }
