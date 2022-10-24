@@ -4,15 +4,15 @@
     --main-elements-color: #212121;
     --second-elements-color: #757575;
     --accent-elements-color: #2196F3;
-    --main-background-color: #F5F5F5;
+    --main-background-color: #FFFFFF;
     --second-background-color: #2F303A;
-
+    
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
-    background-color: #FFFFFF; 
+    background-color: var(--main-background-color); 
     
 }
 
@@ -58,7 +58,7 @@ button {
 /* Header style */
 
 .header {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);;
 }
 
 .logo-web {   
@@ -116,19 +116,20 @@ button {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: var(--main-background-color);
 }
 
 .hero-button {
         font-family: inherit;
-        background-color: #2196F3;        
+        background-color: #2196F3; 
+        font-weight: 500;
         font-size: 16px;
         line-height: calc(30 / 16);       
         display: flex;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;    
-        color: #FFFFFF;
+        color: var(--main-background-color);
 }
 
 .hero-button:hover,
@@ -141,7 +142,7 @@ button {
 /* Feachures Index style */
 
 .feachures {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
 }
 
 .feachures-tytle {        
@@ -162,7 +163,7 @@ button {
 /* Employment Index style */
 
 .employment {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
 }
 
 .employment-tytle {       
@@ -179,8 +180,11 @@ button {
     background-color: #F5F4FA;
 }
 
-.team-box {
-    color: #FFF;
+.team-tytle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: сalc(42 / 36);
+
 }
 
 .team-style {        
@@ -211,7 +215,7 @@ button {
 /* Main (Portfolio) style */
 
 .portfolio {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
 }
 
 .list-button {
@@ -240,7 +244,7 @@ button {
 .list-button-item:hover,
 .list-button-item:focus {
    
-    color: #FFFFFF;
+    color: var(--main-background-color);
     background: var(--accent-elements-color);    
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -271,15 +275,16 @@ button {
     font-size: 26px;
     line-height: calc(31/26);
     letter-spacing: 0.03em;    
-    color: #FFFFFF;
+    color: var(--main-background-color);
 }
 
 
-.adress-link {      
+.adress-link { 
+    font-style: normal;
     font-size: 14px;
     line-height: calc(24/14);    
     letter-spacing: 0.03em;    
-    color: #FFFFFF;
+    color: var(--main-background-color);
 }
 
 .adress-link:hover,
@@ -287,7 +292,8 @@ button {
     color: var(--accent-elements-color);
 }
 
-.adr-link {        
+.adr-link {  
+    font-style: normal;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;    
